@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.name {
+  display: flex;
+  justify-content: space-around;
+}
+.nav-list {
+  /*padding: 40px;*/
+  font-weight: 600;
+  white-space: nowrap;
+  line-height: 10px;
+  display: flex;
+}
+.Services:hover .menu {
+  display: flex;
+  flex-direction: column;
+}
+.menu {
+  display: none;
+  top: 55px;
+  width: 70%;
+  margin-top: 3%;
+  background-color: #fff;
+  color: #000;
+  border: 2px solid skyblue;
+  padding: 40px 20px;
+  margin: 20px;
+  left: 650px;
+  line-height: 1;
+}
